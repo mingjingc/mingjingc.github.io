@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Redis on 阿晶</title>
+    <link>/tags/redis/</link>
+    <description>Recent content in Redis on 阿晶</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 29 Jun 2020 07:12:30 +0800</lastBuildDate><atom:link href="/tags/redis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>分布式锁之Redlock</title>
+      <link>/post/redis-redlock/</link>
+      <pubDate>Mon, 29 Jun 2020 07:12:30 +0800</pubDate>
+      
+      <guid>/post/redis-redlock/</guid>
+      <description>使用分布式锁目的 对于分布式锁的目的，Martin 总结了两点 Efficiency（效率） 在分布式系统中，避免不同节点重复做相同的工作，节约计算</description>
+    </item>
+    
+  </channel>
+</rss>

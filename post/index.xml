@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 阿晶</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on 阿晶</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 19 Jan 2021 15:36:25 +0800</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Excellent Blog</title>
+      <link>/post/excellent-blog/</link>
+      <pubDate>Tue, 19 Jan 2021 15:36:25 +0800</pubDate>
+      
+      <guid>/post/excellent-blog/</guid>
+      <description>优秀文章记录 protobuf 图解Protobuf编码 Encoding 智能合约 DASP Top10 合约漏洞</description>
+    </item>
+    
+    <item>
+      <title>(译)什么是区块链预言机？</title>
+      <link>/post/bc-oracle/</link>
+      <pubDate>Tue, 10 Nov 2020 10:29:38 +0800</pubDate>
+      
+      <guid>/post/bc-oracle/</guid>
+      <description>什么是预言机问题？为什么区块链不能自己提供API调用？ 认识预言机 ​ 区块链预言机 是一个将链外数据与确定性区块链连接接起来的机器或实体。短短一句</description>
+    </item>
+    
+    <item>
+      <title>Solidity突破性变化之v0.6.0 </title>
+      <link>/post/sol-0.6-breaking-changes/</link>
+      <pubDate>Thu, 05 Nov 2020 17:44:11 +0800</pubDate>
+      
+      <guid>/post/sol-0.6-breaking-changes/</guid>
+      <description>更明确的要求 重写(Ovrride) 重写fuction明确要求如下： 被重写的function一定是virtual或在interface里 重写f</description>
+    </item>
+    
+    <item>
+      <title>Hugo遇到的问题与解决方案</title>
+      <link>/post/hugo/</link>
+      <pubDate>Wed, 04 Nov 2020 10:31:50 +0800</pubDate>
+      
+      <guid>/post/hugo/</guid>
+      <description>支持数学公式 解决方案来自&amp;raquo; 引入MathJax 添加文件layouts/partials/mathjax.html 1 2 3 4 5 6 7 8 9</description>
+    </item>
+    
+    <item>
+      <title>PBFT共识算法论文阅读总结</title>
+      <link>/post/bc-pbft/</link>
+      <pubDate>Mon, 02 Nov 2020 18:15:38 +0800</pubDate>
+      
+      <guid>/post/bc-pbft/</guid>
+      <description>The Client 发送&amp;lt;REQUEST, o, t, c&amp;gt;${\sigma}_c$请求信息给primary节点 o: operation t: timestamp 保证该请求只会执行一次 c: clien</description>
+    </item>
+    
+    <item>
+      <title>MySql事务</title>
+      <link>/post/mysql_transaction/</link>
+      <pubDate>Sat, 04 Jul 2020 07:30:00 +0800</pubDate>
+      
+      <guid>/post/mysql_transaction/</guid>
+      <description>事务满足的四个条件(ACID)：Atomicity（原子性）, Consistency（一致性）, Isolation（隔离性), Durabil</description>
+    </item>
+    
+    <item>
+      <title>Go Range循环内部机制(译文)</title>
+      <link>/post/go-range/</link>
+      <pubDate>Tue, 30 Jun 2020 16:58:36 +0800</pubDate>
+      
+      <guid>/post/go-range/</guid>
+      <description>尽管Go语法一切都很便捷，但我对Go 的 range循环总是有点疑惑。不单是我个人对以下代码有疑惑： #golang pop quiz: does this program terminate? func main() { v := []int{1, 2, 3} for i := range v { v</description>
+    </item>
+    
+    <item>
+      <title>分布式锁之Redlock</title>
+      <link>/post/redis-redlock/</link>
+      <pubDate>Mon, 29 Jun 2020 07:12:30 +0800</pubDate>
+      
+      <guid>/post/redis-redlock/</guid>
+      <description>使用分布式锁目的 对于分布式锁的目的，Martin 总结了两点 Efficiency（效率） 在分布式系统中，避免不同节点重复做相同的工作，节约计算</description>
+    </item>
+    
+    <item>
+      <title>设计模式-Golang实现</title>
+      <link>/post/design-patterns/</link>
+      <pubDate>Thu, 11 Jun 2020 22:26:29 +0800</pubDate>
+      
+      <guid>/post/design-patterns/</guid>
+      <description>设计模式一般遵守 &amp;ldquo;开放封闭&amp;rdquo; 原则，即对拓展开放，对修改封闭。 单例模式 Singleton Pattern 保证一个类只有一个实例，并提供全局调用。它是</description>
+    </item>
+    
+    <item>
+      <title>Golang并发安全</title>
+      <link>/post/go-sync/</link>
+      <pubDate>Fri, 22 May 2020 16:02:15 +0800</pubDate>
+      
+      <guid>/post/go-sync/</guid>
+      <description>Once Once保证只能执行一个操作，多余的操作都会被忽略调。情景：单例模式的实例创建、初始化配置文件、消息队列nsq删除channel&amp;hell</description>
+    </item>
+    
+    <item>
+      <title>Solidity智能合约漏洞分析</title>
+      <link>/post/sol-smartcontract-bug/</link>
+      <pubDate>Thu, 19 Mar 2020 15:49:57 +0800</pubDate>
+      
+      <guid>/post/sol-smartcontract-bug/</guid>
+      <description>溢出 【案例】美链 美链BEC合约 攻击的交易：0xad89ff16fd1ebe3a0a7cf4ed282302c06626c1af33221eb</description>
+    </item>
+    
+    <item>
+      <title>排序算法</title>
+      <link>/post/sort/</link>
+      <pubDate>Sat, 29 Feb 2020 05:42:00 +0800</pubDate>
+      
+      <guid>/post/sort/</guid>
+      <description>冒泡排序 大的元素往上冒 1 2 3 4 5 6 7 8 9 func bubblingSort(nums []int) { for i := 0; i &amp;lt; len(nums); i++ { for j := 0; j &amp;lt; len(nums)-i-1; j++ { if nums[j] &amp;gt; nums[j+1] { nums[j], nums[j+1] = nums[j+1], nums[j] } } } } 特点：稳定 选择排序 每次选择剩</description>
+    </item>
+    
+    <item>
+      <title>Linux command</title>
+      <link>/post/linux_command/</link>
+      <pubDate>Fri, 14 Feb 2020 20:01:54 +0800</pubDate>
+      
+      <guid>/post/linux_command/</guid>
+      <description>端口与安全 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 lsof -i:端口号 # 开放端口 sudo firewall-cmd --zone=public --add-port=30312/tcp --permanent sudo firewall-cmd --reload # 配置立即生效 # 查看防火墙所有开放的端口</description>
+    </item>
+    
+    <item>
+      <title>动态规划</title>
+      <link>/post/algorithm-dp/</link>
+      <pubDate>Wed, 05 Feb 2020 15:34:43 +0800</pubDate>
+      
+      <guid>/post/algorithm-dp/</guid>
+      <description>动态规划(Dynamic Programing)，通过解决存储子问题结果，迭代h解决整个问题 斐波纳切数列(fibbonacci) 1 0,1,1,2,3,5,8,13,21,34 1 2 3 4 5</description>
+    </item>
+    
+    <item>
+      <title>贪心算法</title>
+      <link>/post/alogrithm-greedy/</link>
+      <pubDate>Wed, 05 Feb 2020 15:32:55 +0800</pubDate>
+      
+      <guid>/post/alogrithm-greedy/</guid>
+      <description>贪心算法（greedy algorithm）是一种在每一步选择中都采取在当前状态下最好或最优（即最有利）的选择，从而希望导致结果是最好或最优的</description>
+    </item>
+    
+    <item>
+      <title>全排序</title>
+      <link>/post/algorithm-permute/</link>
+      <pubDate>Wed, 05 Feb 2020 10:13:47 +0800</pubDate>
+      
+      <guid>/post/algorithm-permute/</guid>
+      <description>全排序一 给定一个没有重复数字的序列，返回其所有可能的全排列。 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 输入: [1,2,3] 输出: [ [1,2,3], [1,3,2], [2,1,3], [2,3,1], [3,1,2], [3,2,1] ]</description>
+    </item>
+    
+    <item>
+      <title>Go Slice</title>
+      <link>/post/go-slice/</link>
+      <pubDate>Wed, 05 Feb 2020 08:50:41 +0800</pubDate>
+      
+      <guid>/post/go-slice/</guid>
+      <description>总结golang slice一些需要注意的知识 slice拷贝冒号和copy区别 冒号位浅拷贝，只会复制slice结构，不会复制指向的数组数据；c</description>
+    </item>
+    
+    <item>
+      <title>Eth</title>
+      <link>/post/bc-eth/</link>
+      <pubDate>Mon, 03 Feb 2020 13:44:32 +0800</pubDate>
+      
+      <guid>/post/bc-eth/</guid>
+      <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 type Header struct { ParentHash common.Hash `json:&amp;#34;parentHash&amp;#34; gencodec:&amp;#34;required&amp;#34;` UncleHash common.Hash `json:&amp;#34;sha3Uncles&amp;#34; gencodec:&amp;#34;required&amp;#34;` Coinbase common.Address `json:&amp;#34;miner&amp;#34; gencodec:&amp;#34;required&amp;#34;` Root common.Hash `json:&amp;#34;stateRoot&amp;#34; gencodec:&amp;#34;required&amp;#34;` TxHash common.Hash `json:&amp;#34;transactionsRoot&amp;#34; gencodec:&amp;#34;required&amp;#34;` ReceiptHash common.Hash `json:&amp;#34;receiptsRoot&amp;#34; gencodec:&amp;#34;required&amp;#34;` Bloom Bloom `json:&amp;#34;logsBloom&amp;#34; gencodec:&amp;#34;required&amp;#34;` Difficulty *big.Int `json:&amp;#34;difficulty&amp;#34; gencodec:&amp;#34;required&amp;#34;` Number *big.Int `json:&amp;#34;number&amp;#34; gencodec:&amp;#34;required&amp;#34;` GasLimit uint64 `json:&amp;#34;gasLimit&amp;#34; gencodec:&amp;#34;required&amp;#34;` GasUsed uint64 `json:&amp;#34;gasUsed&amp;#34; gencodec:&amp;#34;required&amp;#34;` Time *big.Int `json:&amp;#34;timestamp&amp;#34; gencodec:&amp;#34;required&amp;#34;` Extra</description>
+    </item>
+    
+    <item>
+      <title>BTC</title>
+      <link>/post/bc-btc/</link>
+      <pubDate>Mon, 03 Feb 2020 13:27:55 +0800</pubDate>
+      
+      <guid>/post/bc-btc/</guid>
+      <description>挖矿 求一个满足条件的block hash值，其中可变动的有nonce和coinbace的extra nonce, 故挖矿的尝试有两个循环。通过不断尝试，使得</description>
+    </item>
+    
+    <item>
+      <title>Go基础知识</title>
+      <link>/post/go-knowledge/</link>
+      <pubDate>Fri, 31 Jan 2020 17:30:25 +0800</pubDate>
+      
+      <guid>/post/go-knowledge/</guid>
+      <description>查看goroutine数量 runtime.NumGoroutine() 设置执行Goroutine的最多cpu数目 runtime.GOMAXPROCS(2) 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 func GOMAXPROCS(n int) int { if GOARCH == &amp;#34;wasm&amp;#34; &amp;amp;&amp;amp; n &amp;gt; 1 {</description>
+    </item>
+    
+  </channel>
+</rss>

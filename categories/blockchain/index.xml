@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blockchain on 阿晶</title>
+    <link>/categories/blockchain/</link>
+    <description>Recent content in blockchain on 阿晶</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 10 Nov 2020 10:29:38 +0800</lastBuildDate><atom:link href="/categories/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>(译)什么是区块链预言机？</title>
+      <link>/post/bc-oracle/</link>
+      <pubDate>Tue, 10 Nov 2020 10:29:38 +0800</pubDate>
+      
+      <guid>/post/bc-oracle/</guid>
+      <description>什么是预言机问题？为什么区块链不能自己提供API调用？ 认识预言机 ​ 区块链预言机 是一个将链外数据与确定性区块链连接接起来的机器或实体。短短一句</description>
+    </item>
+    
+    <item>
+      <title>Solidity突破性变化之v0.6.0 </title>
+      <link>/post/sol-0.6-breaking-changes/</link>
+      <pubDate>Thu, 05 Nov 2020 17:44:11 +0800</pubDate>
+      
+      <guid>/post/sol-0.6-breaking-changes/</guid>
+      <description>更明确的要求 重写(Ovrride) 重写fuction明确要求如下： 被重写的function一定是virtual或在interface里 重写f</description>
+    </item>
+    
+    <item>
+      <title>PBFT共识算法论文阅读总结</title>
+      <link>/post/bc-pbft/</link>
+      <pubDate>Mon, 02 Nov 2020 18:15:38 +0800</pubDate>
+      
+      <guid>/post/bc-pbft/</guid>
+      <description>The Client 发送&amp;lt;REQUEST, o, t, c&amp;gt;${\sigma}_c$请求信息给primary节点 o: operation t: timestamp 保证该请求只会执行一次 c: clien</description>
+    </item>
+    
+    <item>
+      <title>Solidity智能合约漏洞分析</title>
+      <link>/post/sol-smartcontract-bug/</link>
+      <pubDate>Thu, 19 Mar 2020 15:49:57 +0800</pubDate>
+      
+      <guid>/post/sol-smartcontract-bug/</guid>
+      <description>溢出 【案例】美链 美链BEC合约 攻击的交易：0xad89ff16fd1ebe3a0a7cf4ed282302c06626c1af33221eb</description>
+    </item>
+    
+    <item>
+      <title>Eth</title>
+      <link>/post/bc-eth/</link>
+      <pubDate>Mon, 03 Feb 2020 13:44:32 +0800</pubDate>
+      
+      <guid>/post/bc-eth/</guid>
+      <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 type Header struct { ParentHash common.Hash `json:&amp;#34;parentHash&amp;#34; gencodec:&amp;#34;required&amp;#34;` UncleHash common.Hash `json:&amp;#34;sha3Uncles&amp;#34; gencodec:&amp;#34;required&amp;#34;` Coinbase common.Address `json:&amp;#34;miner&amp;#34; gencodec:&amp;#34;required&amp;#34;` Root common.Hash `json:&amp;#34;stateRoot&amp;#34; gencodec:&amp;#34;required&amp;#34;` TxHash common.Hash `json:&amp;#34;transactionsRoot&amp;#34; gencodec:&amp;#34;required&amp;#34;` ReceiptHash common.Hash `json:&amp;#34;receiptsRoot&amp;#34; gencodec:&amp;#34;required&amp;#34;` Bloom Bloom `json:&amp;#34;logsBloom&amp;#34; gencodec:&amp;#34;required&amp;#34;` Difficulty *big.Int `json:&amp;#34;difficulty&amp;#34; gencodec:&amp;#34;required&amp;#34;` Number *big.Int `json:&amp;#34;number&amp;#34; gencodec:&amp;#34;required&amp;#34;` GasLimit uint64 `json:&amp;#34;gasLimit&amp;#34; gencodec:&amp;#34;required&amp;#34;` GasUsed uint64 `json:&amp;#34;gasUsed&amp;#34; gencodec:&amp;#34;required&amp;#34;` Time *big.Int `json:&amp;#34;timestamp&amp;#34; gencodec:&amp;#34;required&amp;#34;` Extra</description>
+    </item>
+    
+    <item>
+      <title>BTC</title>
+      <link>/post/bc-btc/</link>
+      <pubDate>Mon, 03 Feb 2020 13:27:55 +0800</pubDate>
+      
+      <guid>/post/bc-btc/</guid>
+      <description>挖矿 求一个满足条件的block hash值，其中可变动的有nonce和coinbace的extra nonce, 故挖矿的尝试有两个循环。通过不断尝试，使得</description>
+    </item>
+    
+  </channel>
+</rss>

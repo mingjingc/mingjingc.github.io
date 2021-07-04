@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>solidity on 阿晶</title>
+    <link>/tags/solidity/</link>
+    <description>Recent content in solidity on 阿晶</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Nov 2020 17:44:11 +0800</lastBuildDate><atom:link href="/tags/solidity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solidity突破性变化之v0.6.0 </title>
+      <link>/post/sol-0.6-breaking-changes/</link>
+      <pubDate>Thu, 05 Nov 2020 17:44:11 +0800</pubDate>
+      
+      <guid>/post/sol-0.6-breaking-changes/</guid>
+      <description>更明确的要求 重写(Ovrride) 重写fuction明确要求如下： 被重写的function一定是virtual或在interface里 重写f</description>
+    </item>
+    
+    <item>
+      <title>Solidity智能合约漏洞分析</title>
+      <link>/post/sol-smartcontract-bug/</link>
+      <pubDate>Thu, 19 Mar 2020 15:49:57 +0800</pubDate>
+      
+      <guid>/post/sol-smartcontract-bug/</guid>
+      <description>溢出 【案例】美链 美链BEC合约 攻击的交易：0xad89ff16fd1ebe3a0a7cf4ed282302c06626c1af33221eb</description>
+    </item>
+    
+  </channel>
+</rss>

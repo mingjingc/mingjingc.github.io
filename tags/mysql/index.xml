@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MySQL on 阿晶</title>
+    <link>/tags/mysql/</link>
+    <description>Recent content in MySQL on 阿晶</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 04 Jul 2020 07:30:00 +0800</lastBuildDate><atom:link href="/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MySql事务</title>
+      <link>/post/mysql_transaction/</link>
+      <pubDate>Sat, 04 Jul 2020 07:30:00 +0800</pubDate>
+      
+      <guid>/post/mysql_transaction/</guid>
+      <description>事务满足的四个条件(ACID)：Atomicity（原子性）, Consistency（一致性）, Isolation（隔离性), Durabil</description>
+    </item>
+    
+  </channel>
+</rss>

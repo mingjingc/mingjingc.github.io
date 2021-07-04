@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>golang on 阿晶</title>
+    <link>/categories/golang/</link>
+    <description>Recent content in golang on 阿晶</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 22 May 2020 16:02:15 +0800</lastBuildDate><atom:link href="/categories/golang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Golang并发安全</title>
+      <link>/post/go-sync/</link>
+      <pubDate>Fri, 22 May 2020 16:02:15 +0800</pubDate>
+      
+      <guid>/post/go-sync/</guid>
+      <description>Once Once保证只能执行一个操作，多余的操作都会被忽略调。情景：单例模式的实例创建、初始化配置文件、消息队列nsq删除channel&amp;hell</description>
+    </item>
+    
+    <item>
+      <title>Go Slice</title>
+      <link>/post/go-slice/</link>
+      <pubDate>Wed, 05 Feb 2020 08:50:41 +0800</pubDate>
+      
+      <guid>/post/go-slice/</guid>
+      <description>总结golang slice一些需要注意的知识 slice拷贝冒号和copy区别 冒号位浅拷贝，只会复制slice结构，不会复制指向的数组数据；c</description>
+    </item>
+    
+    <item>
+      <title>Go基础知识</title>
+      <link>/post/go-knowledge/</link>
+      <pubDate>Fri, 31 Jan 2020 17:30:25 +0800</pubDate>
+      
+      <guid>/post/go-knowledge/</guid>
+      <description>查看goroutine数量 runtime.NumGoroutine() 设置执行Goroutine的最多cpu数目 runtime.GOMAXPROCS(2) 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 func GOMAXPROCS(n int) int { if GOARCH == &amp;#34;wasm&amp;#34; &amp;amp;&amp;amp; n &amp;gt; 1 {</description>
+    </item>
+    
+    <item>
+      <title>理解Golang Channel</title>
+      <link>/post/go-channel/</link>
+      <pubDate>Thu, 30 Jan 2020 06:41:03 +0800</pubDate>
+      
+      <guid>/post/go-channel/</guid>
+      <description>分析工具 go build -gcflags 给编译器传参数 gcflag 参数 -N 禁用优化 -l 禁止内联 go tool objdump -s &amp;ldquo;main&amp;rdquo; 反汇编，并输出匹配 -s 参数 重要数据结构 Channel 结构 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17</description>
+    </item>
+    
+    <item>
+      <title>Golang Strings Trim</title>
+      <link>/post/go-strings-trim/</link>
+      <pubDate>Wed, 15 May 2019 19:23:26 +0800</pubDate>
+      
+      <guid>/post/go-strings-trim/</guid>
+      <description>先上讨论的题目 1 2 3 4 5 6 fmt.Println(strings.TrimSpace(&amp;#34; foot &amp;#34;), &amp;#34;end&amp;#34;) fmt.Println(strings.Trim(&amp;#34;fo offe &amp;#34;, &amp;#34;fo&amp;#34;)) fmt.Println(strings.TrimLeft(&amp;#34;foo&amp;#34;, &amp;#34;fo&amp;#34;)) fmt.Println(strings.TrimRight(&amp;#34;foo&amp;#34;, &amp;#34;fo&amp;#34;)) fmt.Println(strings.TrimPrefix(&amp;#34;afoo&amp;#34;, &amp;#34;fo&amp;#34;)) fmt.Println(strings.TrimSuffix(&amp;#34;foo&amp;#34;, &amp;#34;fo&amp;#34;)) 输出 1 2 3 4 5 6 foot end offe afoo foo 这道题很简单，只不过它的处理方式让我难以接受。先看Tri</description>
+    </item>
+    
+    <item>
+      <title>Go Web Examples(译文)</title>
+      <link>/post/go-web-examples/</link>
+      <pubDate>Fri, 10 May 2019 11:24:21 +0800</pubDate>
+      
+      <guid>/post/go-web-examples/</guid>
+      <description>Go是一门开源程序语言，其目的是为了编译简单、快速和可靠软件。看看这里有哪些著名的公司使用go打造他们的服务器。Go Web Examples提供了</description>
+    </item>
+    
+    <item>
+      <title>Golang Init</title>
+      <link>/post/go-init/</link>
+      <pubDate>Tue, 30 Apr 2019 14:57:16 +0800</pubDate>
+      
+      <guid>/post/go-init/</guid>
+      <description>初始化顺序没有特别之处，就是文件内const-&amp;gt;var-&amp;gt;init func-&amp;gt;main func，先进入按书面顺序进入import。特别需要注意的我</description>
+    </item>
+    
+    <item>
+      <title>compare in golang</title>
+      <link>/post/go-compare/</link>
+      <pubDate>Sat, 16 Mar 2019 10:26:44 +0000</pubDate>
+      
+      <guid>/post/go-compare/</guid>
+      <description>基本类型比较 直接使用比较符号 对象比较 涉及Value和type两个值，目前可用反射 1 2 3 4 5 6 7 8 9 10 11 12 func DeepEqual(x, y interface{}) bool { if x == nil || y == nil { return x ==</description>
+    </item>
+    
+    <item>
+      <title>slice operation</title>
+      <link>/post/go-slice-opt/</link>
+      <pubDate>Thu, 14 Mar 2019 21:08:42 +0000</pubDate>
+      
+      <guid>/post/go-slice-opt/</guid>
+      <description>delete golang对于slice删除元素比较麻烦，主要有两种 不保留顺序 1 2 3 a[i] = a[len(a)-1] a[len(a)-1] = nil // zero value, nil、0 etc. a = a[:len(a)-1] 保留顺序 1 2 3 copy(a[i:],a[i+1:]) a[len(a)-1] = nil // zero value</description>
+    </item>
+    
+    <item>
+      <title>字符串转换</title>
+      <link>/post/go-strconv/</link>
+      <pubDate>Thu, 14 Mar 2019 21:08:42 +0000</pubDate>
+      
+      <guid>/post/go-strconv/</guid>
+      <description>Bytes and String 方法一：我们使用强制转换方式轻松地把byte、rune数组转换成字符串。 1 2 3 bytes := []byte{&amp;#39;1&amp;#39;, &amp;#39;b&amp;#39;} str = string(bytes) bytes := []byte(str) 此方法拷贝了一份 Data，若对于只读</description>
+    </item>
+    
+  </channel>
+</rss>
